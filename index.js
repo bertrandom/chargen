@@ -17,6 +17,7 @@ var server = net.createServer(function(c) {
 		}
 	}, 0);
 
+	// This is to handle an issue with net.createServer where it freaks out when it receives a Ctrl-C
 	c.on('error', function(e) {
 
 		if (e.code === "ECONNRESET") {
