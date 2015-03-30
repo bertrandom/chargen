@@ -1,0 +1,14 @@
+{
+  "name": "chargen",
+  "version": "1.0.0",
+  "description": "TCP Based CHARGEN service as defined in RFC 864",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bertrand Fan",
+  "license": "ISC",
+  "dependencies": {
+    "telnet": "0.0.1"
+  }
+}
